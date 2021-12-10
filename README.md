@@ -1,10 +1,8 @@
 # Cervical Cancer Classification Python
  
-This is a machine learning classifier of whether a patient has or does not have cervical cancer based on certain risk factors.  The dataset is from the University of California Irvine (UCI) Machine Learning Repository, comprising 35 attributes of demographic information, habits, and historic medical records of 858 patients collected at Venezuela hospital.
+This is a machine learning classifier of whether a patient has or does not have cervical cancer based on certain risk factors. The code is written in Python and executed on a Jupyter Notebook.   
 
-Feature extraction performed using cumulative explained variance to determine 10 principal components (accounting for about 95% of variance).
-
-Different machine learning algorithms were used, and overall, Random Forest & Gradient Boosting are neck to neck with accuracy, precision & recall at 90%. 
+The dataset is from the University of California Irvine (UCI) Machine Learning Repository, comprising 35 attributes of demographic information, habits, and historic medical records of 858 patients collected at Venezuela hospital. Feature extraction performed using cumulative explained variance to determine 10 principal components (accounting for about 95% of variance). Different machine learning algorithms were used, and overall, Random Forest & Gradient Boosting are neck to neck with accuracy, precision & recall at 90%. 
 
 Despite the high model accuracy, its predictability in real life is not certain due to small sample size.  Model can be deployed as a tool alongside others in cervical cancer screening. 
 
